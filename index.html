@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+ 
+.container{
+  display: grid;
+  grid-template-columns: 320px 198px 153px 20px;
+  grid-template-rows: 414px 130px 50px 20px;
+  width: 748px;
+  height: 748px;
+  gap: 9px;
+  background-color: #000;
+
+
+}
+.redbox{
+  background-color: #E72F24;
+  
+}
+.whi{
+  background-color: #F0F1EC;
+}
+.black{
+  background-color: #232629;
+  grid-column: 3;
+  grid-row: 6;
+  
+}
+.blue{
+  background-color: #004592;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row: 2;
+  border-bottom: 10px solid #000;
+}
+.yellow{
+  background-color: #F9D01E;
+  grid-column: 2;
+  grid-row: 6;
+}
+.bigwhite{
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+.threewhite{
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+.bottomwhite{
+  grid-row-start: 3;
+  grid-row-end: 7;
+  grid-column-start: 6;
+  grid-column-end: 4;
+ 
+}
+.middlewhite{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+  </style>
+</head>
+<div class="container">
+  <div class="redbox"></div>
+  <div class=" whi bigwhite"></div>
+  <div class=" whi threewhite"></div>
+  <div class=" whi middlewhite"></div>
+  <div class=" whi midrightwhite"></div>
+  <div class="blue"></div>
+  <div class=" whi bottomwhite"></div>
+  <div class="yellow"></div>
+  <div class="black"></div>
+</div>
+<body>
+  <!-- Write your HTML here -->
+</body>
+
+</html>
